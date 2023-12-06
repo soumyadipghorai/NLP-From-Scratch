@@ -1,0 +1,7 @@
+* whether mandelbrot gives better approximation than zipfs for same corpus 
+* heaps law to find the prediction of vocabulary of any corpus 
+* gensim library 
+* plot decay of sigma in SGD 
+* constract n-gram(4-gram or more. for a corpus check the avg sentence length and then decide the length of n-gram) LM, tune for OOV 
+* spam classification / sentiment analysis  
+* visualize skip gram 
