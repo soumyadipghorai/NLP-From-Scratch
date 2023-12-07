@@ -14,6 +14,7 @@ corpus = [
 ]
 
 """
+* in the column you have the words, in the row index is the docs. each value corresponds to the count of term in that doc 
 * here you can pass either the text content in a corpus 
 * or you can pass in file names 
 * or you can pass in file objects with a read method. 
