@@ -78,7 +78,7 @@ for feature in features :
         if feature in word_list : 
             count += 1 
 
-    row = [np.log10(len(corpus)/(count+1)) + 1] * len(corpus)
+    row = [np.log10((len(corpus)+1)/(count+1)) + 1] * len(corpus)
     idf_mat.append(row)
 
 idf_df = pd.DataFrame(np.array(idf_mat).T, columns= features)
